@@ -1,0 +1,33 @@
+body {
+    background: #388E3C;
+     color: #cbcb83;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+table {
+    border: none;
+    position: absolute;
+    left: 10%;
+    top: 10%;
+    width: 80%;
+    height: 80%;
+    border-collapse: collapse;
+}
+
+td {
+    background: none;
+    height: 20%;
+    width: 20%;
+    border: 10px solid #cbcb83;
+    text-align: center;
+    font-size: 700%;
+    border-radius: 10px;
+   
+    
+}
+
+td:hover {
+    background: rgba(0, 0, 0, 0.09);
+    border: 11px solid #fa8196;
+}
